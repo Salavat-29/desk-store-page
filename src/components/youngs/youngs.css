@@ -1,0 +1,13 @@
+.youngs {
+    margin-bottom: 220px;
+}
+
+.margin-bottom {
+    margin-bottom: 118px;
+}
+
+.youngs__cards {
+    display:flex;
+    column-gap: 47px;
+    justify-content: space-between;
+}

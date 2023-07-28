@@ -1,0 +1,41 @@
+.app {
+    margin-bottom: 220px;
+}
+
+.app-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 148.5px;
+    padding-right: 148.5px;
+}
+
+.advert-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 507px;
+}
+
+.advert-title {
+    font-size: 47px;
+    font-weight: 900;
+    line-height: calc(72/48);
+    letter-spacing: 0.06em;
+    margin-bottom: 41px;
+}
+
+.advert-descr {
+font-size: 24px;
+font-weight: 500;
+line-height: calc(35/24);
+letter-spacing: -0.04em;
+color: #7C7C7C;
+margin-bottom: 65px;
+}
+
+.mobile-app {
+    display: flex;
+    column-gap: 19px;
+    max-width: 491px;
+}
+

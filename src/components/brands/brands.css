@@ -1,0 +1,12 @@
+.brands {
+    background-color:#EBD96B;
+    margin-bottom: 120px;
+}
+
+.brands-list {
+    mix-blend-mode: multiply;
+    display: flex;
+    column-gap: 120px;
+    justify-content: center;
+    align-items: center;
+}

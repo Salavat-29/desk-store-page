@@ -1,0 +1,32 @@
+
+.arrivals {
+    margin-bottom: 143px;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 100px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: calc(50/48);
+    letter-spacing: 0.06em;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 190px;
+    height: 32px;
+    background-image: url(./../../img/fashion-images/icons/decor-yellow.svg);
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.arrivals__cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 131px;
+}
